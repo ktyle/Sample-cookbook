@@ -1,10 +1,14 @@
-name: cookbook-dev
+name: sample-dev
 channels:
   - conda-forge
 dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server<2
+  - xarray
+  - zarr
+  - kerchunk
+  - netcdf4
   - pip
   - pip:
       - sphinx-pythia-theme
