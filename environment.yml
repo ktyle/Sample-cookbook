@@ -7,8 +7,14 @@ dependencies:
   - jupyter_server<2
   - xarray
   - zarr
+  - matplotlib
+  - cartopy
+  - metpy
   - kerchunk
   - netcdf4
+  - xarray-datatree
+  - h5py
+  - s3fs
   - pip
   - pip:
       - sphinx-pythia-theme
